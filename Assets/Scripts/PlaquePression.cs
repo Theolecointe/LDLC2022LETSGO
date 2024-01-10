@@ -7,6 +7,7 @@ public class PlaquePression : MonoBehaviour
 {
     [SerializeField] int nombreRandom;
     [SerializeField] private GameObject door;
+  
     
     void OnTriggerEnter(Collider collider)
     {
