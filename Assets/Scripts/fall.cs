@@ -20,7 +20,7 @@ public class fall : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.r))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             animator.Play("Z_FallingBack");
 
